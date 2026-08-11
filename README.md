@@ -49,7 +49,7 @@ Como redes internas do VirtualBox não possuem DHCP, foram configurados IPs est�
   ```
 - **Windows Vitima:** `192.168.50.20/24` (configurado via TCP/IPv4 no adaptador de rede)
 
-![IPs estáticos configurados](<imagens/Configuração dos IPs estaticos.png>)
+![IPs estáticos configurados](<imagens/Configuração dos IPs estáticos.png>)
 ![Rede ativa na Kali](<imagens/Rede windows.png>)
 
 ### 3. Teste de conectividade
