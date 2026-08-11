@@ -36,7 +36,9 @@ Foi criada uma rede interna no VirtualBox chamada **"Lab SOC"**, conectando a Ka
 - Windows Vitima: Adaptador 2 em Rede Interna "Lab SOC"
 
 ![Configuração de rede - Kali](imagens/Kali%20linux%20-%20Configuração%20internet%20.png)
+
 ![Configuração de rede - Windows](imagens/windows%20-%20configuração%20internet.png)
+
 
 ### 2. Atribuição de IPs fixos
 
