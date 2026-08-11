@@ -37,8 +37,7 @@ Foi criada uma rede interna no VirtualBox chamada **"Lab SOC"**, conectando a Ka
 
 ![Configuração de rede - Kali](imagens/Kali%20linux%20-%20Configuração%20internet%20.png)
 
-![Configuração de rede - Windows](imagens/windows%20-%20configuração%20internet.png)
-
+![Configuração de rede - Windows](<imagens/windows - configuração internet .png>)
 
 ### 2. Atribuição de IPs fixos
 
@@ -50,8 +49,8 @@ Como redes internas do VirtualBox não possuem DHCP, foram configurados IPs est�
   ```
 - **Windows Vitima:** `192.168.50.20/24` (configurado via TCP/IPv4 no adaptador de rede)
 
-![IPs estáticos configurados](imagens/Configuração%20dos%20IPs%20estaticos.png)
-![Rede ativa na Kali](imagens/Rede%20windows.png)
+![IPs estáticos configurados](<imagens/Configuração dos IPs estaticos.png>)
+![Rede ativa na Kali](<imagens/Rede windows.png>)
 
 ### 3. Teste de conectividade
 
