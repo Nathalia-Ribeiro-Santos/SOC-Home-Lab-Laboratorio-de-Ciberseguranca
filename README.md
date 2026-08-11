@@ -35,8 +35,8 @@ Foi criada uma rede interna no VirtualBox chamada **"Lab SOC"**, conectando a Ka
 - Kali: Adaptador 1 em NAT (internet) + Adaptador 2 em Rede Interna "Lab SOC"
 - Windows Vitima: Adaptador 2 em Rede Interna "Lab SOC"
 
-![Configuração de rede - Kali](Kali%20linux%20-%20Configura%C3%A7%C3%A3o%20internet%20.png)
-![Configuração de rede - Windows](windows%20-%20configura%C3%A7%C3%A3o%20internet%20.png)
+![Configuração de rede - Kali](imagens/Kali%20linux%20-%20Configuração%20internet%20.png)
+![Configuração de rede - Windows](imagens/windows%20-%20configuração%20internet.png)
 
 ### 2. Atribuição de IPs fixos
 
@@ -48,8 +48,8 @@ Como redes internas do VirtualBox não possuem DHCP, foram configurados IPs est�
   ```
 - **Windows Vitima:** `192.168.50.20/24` (configurado via TCP/IPv4 no adaptador de rede)
 
-![IPs estáticos configurados](Configura%C3%A7%C3%A3o%20dos%20IPs%20est%C3%A1ticos.png)
-![Rede ativa na Kali](Janelas%20Rede%20.png)
+![IPs estáticos configurados](imagens/Configuração%20dos%20IPs%20estaticos.png)
+![Rede ativa na Kali](imagens/Rede%20windows.png)
 
 ### 3. Teste de conectividade
 
@@ -67,7 +67,7 @@ nmap -sV -A 192.168.50.20
 
 **Análise:** esse comportamento demonstra a eficácia da configuração padrão de firewall do Windows contra varreduras externas básicas — um firewall bem configurado não apenas fecha portas, mas evita até confirmar sua existência ao atacante.
 
-![Resultado do scan Nmap](Nmap%20-%20Kali.png)
+![Nmap no Kali](imagens/Nmap%20-%20Kali.png)
 
 ---
 
